@@ -6,8 +6,3 @@ function sameAmount(str, regex1, regex2) {
     }
     return false;
 }
-
-const data = `qqqqqqq q qqqqqqqfsqqqqq q qq  qw w wq wqw  wqw
-ijnjjnfapsdbjnkfsdiqw klfsdjn fs fsdnjnkfsdjnk sfdjn fsp fd`;
-
-console.log(sameAmount(data, /q /, /qqqqqqq/));
